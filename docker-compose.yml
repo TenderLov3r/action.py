@@ -2,6 +2,6 @@ version: "3.9"
 
 services:
   app:
-    image: ghcr.io/tenderlov3r/action.py:1.0
+    image: ghcr.io/tenderlov3r/action.py:main
     restart: unless-stopped
     container_name: app
