@@ -46,3 +46,4 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+      - run: ssh - o "StrictHostKeyChecking no" 'tenderlov3r-actionpy-c7etai78si8#x_Y4.bHO9SM4.QE37-6bWesbY6OUwIm5@tenderlov3r-actionpy-c7etai78si8.ssh.ws-eu106.gitpod.io' 'cd workspace/action.py && docker compose pull && docker compose up -d'
